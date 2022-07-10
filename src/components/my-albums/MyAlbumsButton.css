@@ -1,0 +1,14 @@
+.my-albums-button {
+  position: absolute;
+  top: 15px;
+  right: 369px;
+  padding: 5px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  width: 140px;
+  height: 30px;
+}

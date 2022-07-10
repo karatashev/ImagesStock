@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  padding-bottom: 180px;
+}
+
+.footer-image {
+  height: 225px;
+  z-index: 10;
+  margin-top: 130px;
+}

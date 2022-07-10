@@ -1,0 +1,41 @@
+.my-album {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px auto;
+}
+
+.my-album h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.my-album p {
+  font-weight: 400;
+  color: gray;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.my-album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin: 30px auto;
+}
+
+
+.my-album-grid > div {
+  width: 190px;
+  height: 190px;
+}
+
+
+.my-album-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

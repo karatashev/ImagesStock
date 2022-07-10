@@ -1,0 +1,41 @@
+.download-modal {
+  position: absolute;
+  top: 170px;
+  right: 786px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 200px;
+  color: grey;
+  z-index: 10;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: 400;
+}
+
+.download p {
+  text-align: center;
+  margin: 12px auto;
+  cursor: pointer;
+}
+
+.size {
+  text-align: center;
+  margin: 5px auto;
+
+}
+
+.size:first-child {
+  color: black;
+}
+
+.size p:first-child {
+  font-size: 10px;
+}
+
+.size:hover {
+  color: black;
+  cursor: pointer;
+}

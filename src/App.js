@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+// import './App.css';
+
+import { Route, Routes } from "react-router-dom";
+
+import ImageCardDetails from "./components/image-card-details/ImageCardDetails";
+import ImagesStock from "./components/images-stock/ImagesStock";
+import LoginPage from "./components/login-page/LoginPage";
+import MyAlbum from "./components/my-album-grid/MyAlbum";
+import Navbar from "./components/navbar/Navbar";
+// import SaveModal from "./components/save-image-modal/SaveModal";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<LoginPage />}/>
+        <Route path="/images" element={<ImagesStock />}/>
+        {/* <Route path="/images/modal" element={<SaveModal />}/> */}
+        <Route path="/images/:ImageId" element={<ImageCardDetails />}/>
+        <Route path="/images/album" element={<MyAlbum />}/>
+      </Routes>
+ 
     </div>
   );
 }

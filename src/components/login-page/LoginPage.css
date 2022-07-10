@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  height: 70vh;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.inputs-container {
+  margin: 30px auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 330px;
+  height: 40px;
+  padding: 20px;
+  border: 2px solid black;
+  outline: black;
+}
+
+.login-button {
+  width: 140px;
+  height: 30px;
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
