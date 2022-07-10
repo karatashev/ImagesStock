@@ -3,13 +3,7 @@ import "./SaveModal.css"
 
 
 const SaveModal = ({open, onClose}) => {
-
   if (!open) return null
-  // const navigate = useNavigate();
-  // const goBack = () => {
-  //   navigate(-1);
-  // }
-
 
 
   return (
